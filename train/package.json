@@ -1,0 +1,22 @@
+{
+  "name": "tensor-test-train",
+  "version": "1.0.0",
+  "description": "Use the power of Machine Learning",
+  "main": "main.js",
+  "engines": {
+    "node": ">=8.11.0"
+  },
+  "scripts": {
+    "train": "node main.js",
+    "convert": "node convert.js"
+  },
+  "author": "BARTO & Sascha Dittmann",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "^1.2.7",
+    "jimp": "^0.22.8"
+  },
+  "devDependencies": {
+    "clang-format": "~1.2.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tensor-test-web",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Barto & Sascha Dittmann",
+  "license": "MIT",
+
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": "Use the power of Machine Learning "
+}
